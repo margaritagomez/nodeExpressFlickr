@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import './App.css';
+import {Button} from 'react-bootstrap';
 
 const ROOT_URL = 'http://localhost:9000/flickr/'
 
@@ -27,7 +28,7 @@ class App extends Component {
     return (
       <div className="App">
         <div>Flickr Rainbow</div>
-
+        <Button>Hola</Button>
       </div>
     );
   }
