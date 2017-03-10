@@ -1,6 +1,9 @@
 # Flickr Rainbow 
 This is a project that uses a boilerplate in order to produce a rainbow out of Flickr photos and a specified term. 
 
+![FlickRainbowMargarita]
+(http://i.imgur.com/EgMtpCi.png)
+
 ## Technologies used
 * Node
 * Express 
