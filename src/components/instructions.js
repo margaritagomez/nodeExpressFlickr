@@ -8,7 +8,9 @@ class Instructions extends Component {
             <div>
               <Well>
                 <p className="Instructions">
-                  Search for something on Flickr and we will get you a rainbow of it.
+                  Search for something by relevance on Flickr and we will get you a rainbow of it. <br/>
+                  You may search by interestingness, the date that the picture was taken or posted! <br/>
+                  However, the rainbow function will work best if you search by relevance.
                 </p>
               </Well>
             </div>
