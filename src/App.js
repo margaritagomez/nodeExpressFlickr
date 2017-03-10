@@ -6,7 +6,7 @@ import Instructions from './components/instructions';
 import Search from './components/search';
 import MatrixCol from './components/matrixCol';
 
-const ROOT_URL = 'https://localhost:9000/flickr/'
+const ROOT_URL = '/flickr/'
 
 class App extends Component {
 
