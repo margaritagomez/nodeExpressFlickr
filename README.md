@@ -1,4 +1,36 @@
-# Node + Express + create-react-app + flickrApi Boilerplate
+# Flickr Rainbow 
+This is a project that uses a boilerplate in order to produce a rainbow out of Flickr photos and a specified term. 
+
+## Technologies used
+* Node
+* Express 
+* React
+* FlickrAPI
+* Bootstrap
+
+## How to run it
+First, you should request a Flickr API key from [here](https://www.flickr.com/services/apps/create/)
+```
+git clone https://github.com/margaritagomez/nodeExpressFlickr.git myApp
+cd myApp
+echo "my_flickr_api_key" > server/api_key.txt
+echo "my_flickr_api_secret" > server/api_secret.txt
+npm install
+```
+Compile front-end and back-end later on with:
+
+```
+npm run build
+node server
+```
+Finally, open [http://localhost:9000](http://localhost:9000)
+
+## My Secret Salsa
+I incorporated the options to search by "interestingness", by date when the picture was taken and posted. This changes where made in the backend and front-end by changing the parameter 'sort'. Changes can be found from line 57 in /server/app.js and in the function getPictures in /src/App.js
+
+
+# Documentation from boiler-plate
+## Node + Express + create-react-app + flickrApi Boilerplate
 
 This is a simple project that helps bootstrap projects that use create-react-app + node + express + flickrapi
 
