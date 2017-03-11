@@ -11,6 +11,9 @@ This is a project that uses a boilerplate in order to produce a rainbow out of F
 * FlickrAPI
 * Bootstrap
 
+## Heroku app
+Check out the app [here](https://flickrainbow-mm.herokuapp.com/)
+
 ## How to run it
 First, you should request a Flickr API key from [here](https://www.flickr.com/services/apps/create/)
 ```
